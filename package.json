@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/token-client.ts"
+    "start": "ts-node src/integrated-token-flow.ts",
+    "token": "ts-node src/token-client.ts"
   },
   "keywords": [],
   "author": "",
