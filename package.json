@@ -5,7 +5,8 @@
   "scripts": {
     "start": "ts-node src/integrated-token-flow.ts",
     "token": "ts-node src/token-client.ts",
-    "sim": "ts-node src/token-simulation.ts"
+    "sim": "ts-node src/token-simulation.ts",
+    "dex": "ts-node src/dex-migration-focused.ts"
   },
   "keywords": [],
   "author": "",
