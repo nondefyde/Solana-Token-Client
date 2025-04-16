@@ -58,7 +58,9 @@ async function getSOLBalance(connection: Connection, address: PublicKey): Promis
 
 async function getSalt(data: any) {
     try {
-        const response = await fetch('https://api.flipper.fun/v1/tokens/init', {
+        const url: string = process.env.API_URL ?? "http://localhost:4000/v1"
+        console.log('URL - ', url);
+        const response = await fetch(`${url}/tokens/init`, {
             method: 'POST',
             headers: {
                 'x-api-key': 'SlashApiKey',

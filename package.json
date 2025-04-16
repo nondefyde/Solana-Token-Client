@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/integrated-token-flow.ts",
-    "token": "ts-node src/token-client.ts"
+    "token": "ts-node src/token-client.ts",
+    "sim": "ts-node src/token-simulation.ts"
   },
   "keywords": [],
   "author": "",
