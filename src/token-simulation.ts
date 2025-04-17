@@ -8,10 +8,10 @@ import {sellToken} from './sell-token-client';
 import {createToken} from './integrated-token-flow';
 
 // Configuration
-const NUM_TRANSACTIONS = 10;  // Total number of transactions to simulate
+const NUM_TRANSACTIONS = 5;  // Total number of transactions to simulate
 const BUY_RATIO = 0.9;        // 70% buys, 30% sells
 const MIN_BUY_SOL = 1;     // Minimum SOL for buy
-const MAX_BUY_SOL = 1;      // Maximum SOL for buy
+const MAX_BUY_SOL = 2;      // Maximum SOL for buy
 const SELL_PERCENTAGE = 0.3;  // Sell 10% of holdings in each sell transaction
 const DELAY_BETWEEN_TXS = 2000; // 2 seconds between transactions
 const LOG_FILE = "token_simulation_log.json"; // Log file to save results
